@@ -5,7 +5,7 @@ hello : hello_mpi.c
 
 .PHONY:
 run :
-	mpirun -np 4 hello
+	mpirun -np 3 hello
 
 clean :
 	rm hello
