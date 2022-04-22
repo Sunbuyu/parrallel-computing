@@ -1,5 +1,5 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/xiaopizhu/Desktop/code_project/parrallel-computing'
-make: Nothing to be done for `all'.
+mpicc hello_mpi.c -o hello
 make: Leaving directory `/Users/xiaopizhu/Desktop/code_project/parrallel-computing'
  
