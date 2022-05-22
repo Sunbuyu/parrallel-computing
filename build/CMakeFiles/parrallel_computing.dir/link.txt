@@ -1,1 +1,0 @@
-/opt/homebrew/bin/g++-11 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/parrallel_computing.dir/main.cpp.o CMakeFiles/parrallel_computing.dir/matrix.cpp.o -o parrallel_computing 

@@ -33,9 +33,9 @@
 /bin
 
 # IDE or Editors configurations
-/.vscode
-/.build
-/.build
-/.cmake-build-debug
-/.DS_Store
+.vscode/
+build/
+.idea/
+cmake-build-debug/*
+.DS_Store/
 
