@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# IDE or Editors configurations
+.vscode
+.build
+.cmake-build-debug
+.DS_Store
