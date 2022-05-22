@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/xiaopizhu/Desktop/code_project/parrallel-computing
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/xiaopizhu/Desktop/code_project/parrallel-computing/cmake-build-debug
