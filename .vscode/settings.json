@@ -1,4 +1,4 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
-    "terminal.integrated.fontFamily": "Space Mono for Powerline"
+    "terminal.integrated.fontFamily": "monospace"
 }

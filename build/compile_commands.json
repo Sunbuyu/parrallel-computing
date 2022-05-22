@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/xiaopizhu/Desktop/code_project/parrallel-computing/build",
+  "command": "/opt/homebrew/bin/g++-11   -g -arch arm64 -std=gnu++14 -o CMakeFiles/parrallel_computing.dir/main.cpp.o -c /Users/xiaopizhu/Desktop/code_project/parrallel-computing/main.cpp",
+  "file": "/Users/xiaopizhu/Desktop/code_project/parrallel-computing/main.cpp"
+},
+{
+  "directory": "/Users/xiaopizhu/Desktop/code_project/parrallel-computing/build",
+  "command": "/opt/homebrew/bin/g++-11   -g -arch arm64 -std=gnu++14 -o CMakeFiles/parrallel_computing.dir/matrix.cpp.o -c /Users/xiaopizhu/Desktop/code_project/parrallel-computing/matrix.cpp",
+  "file": "/Users/xiaopizhu/Desktop/code_project/parrallel-computing/matrix.cpp"
+}
+]

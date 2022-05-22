@@ -1,0 +1,3 @@
+/Users/xiaopizhu/Desktop/code_project/parrallel-computing/build/CMakeFiles/parrallel_computing.dir
+/Users/xiaopizhu/Desktop/code_project/parrallel-computing/build/CMakeFiles/edit_cache.dir
+/Users/xiaopizhu/Desktop/code_project/parrallel-computing/build/CMakeFiles/rebuild_cache.dir
