@@ -24,17 +24,23 @@ int main (int argc, char **argv) {
     // #endif
     // 测试变量在init前面定义和后面定义有什么不同。
     int iam, size;
-    int numsum;
+    int numsum, maxnum;
     // int number = 1;
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &iam);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     int number = 1;  // 实测把number的定义和赋值放到init后面和前面没有不同
-
+    int num2 = iam;
     MPI_Reduce(&number, &numsum, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD );
 
     if (iam == 0) {
-        printf("The sum of all numbers is %d  ", numsum);
+        printf("The sum of all numbers is %d  \n", numsum);
+    }
+
+    MPI_Reduce(&num2, &maxnum, 1, MPI_INT, MPI_MAX, 1, MPI_COMM_WORLD);
+    if (iam == 1)
+    {
+        printf("The max number of all members is %d\n", maxnum);
     }
 
 

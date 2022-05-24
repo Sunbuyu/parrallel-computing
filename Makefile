@@ -1,11 +1,18 @@
-all : hello
+all : hello split
 
 hello : hello_mpi.c
-	mpicc hello_mpi.c -o hello
+	mpicc hello_mpi.c -o ./bin/hello
+
+split : comm_split_matrix_multiply.c
+	mpicc comm_split_matrix_multiply.c -o ./bin/split
 
 .PHONY:
-run :
-	mpirun -np 3 hello
+runhello :
+	mpirun -np 3 ./bin/hello
+
+runsplit :
+	mpirun -np 6 ./bin/split
+
 
 clean :
-	rm hello
+	rm ./bin/*
